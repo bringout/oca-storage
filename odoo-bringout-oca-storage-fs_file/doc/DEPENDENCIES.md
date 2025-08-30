@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [fs_attachment](../../../../odoo-bringout-oca-storage-fs_attachment)
+- [fs_attachment](https://github.com/bringout/oca-storage)

@@ -3,5 +3,5 @@
 This addon depends on:
 
 - base
-- [component](../../../../../oca-technical/odoo-bringout-oca-connector-component)
+- [component](https://github.com/bringout/oca-technical)
 - server_environment

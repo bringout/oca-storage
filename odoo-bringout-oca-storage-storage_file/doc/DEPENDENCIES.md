@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [storage_backend](../../../../odoo-bringout-oca-storage-storage_backend)
+- [storage_backend](https://github.com/bringout/oca-storage)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [fs_file](../../../../odoo-bringout-oca-storage-fs_file)
-- [fs_image](../../../../odoo-bringout-oca-storage-fs_image)
+- [fs_file](https://github.com/bringout/oca-storage)
+- [fs_image](https://github.com/bringout/oca-storage)

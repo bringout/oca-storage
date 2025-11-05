@@ -40,13 +40,11 @@ msgstr "ID"
 
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__image_medium
-#: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_product_public_category__image_medium
 msgid "Image (128)"
 msgstr "Slika (128)"
 
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__image
-#: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_product_public_category__image
 msgid "Image (original)"
 msgstr "Slika (originalna)"
 
@@ -57,7 +55,6 @@ msgstr "Oznaka slike"
 
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_product_public_category__image_ids
-#: model_terms:ir.ui.view,arch_db:fs_product_public_category_multi_image.product_public_category_form_view
 msgid "Images"
 msgstr "Slike"
 
@@ -103,7 +100,6 @@ msgstr "Slika javne kategorije proizvoda"
 
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__public_category_id
-#: model:ir.model.fields.selection,name:fs_product_public_category_multi_image.selection__image_tag__apply_on__public_category
 msgid "Public Category"
 msgstr "Javna kategorija"
 

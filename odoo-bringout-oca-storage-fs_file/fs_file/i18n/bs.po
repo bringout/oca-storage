@@ -15,23 +15,21 @@ msgstr ""
 
 #. module: fs_file
 #. odoo-javascript
-#: code:addons/fs_file/static/src/views/fields/fsfile_field.xml:0
-#: code:addons/fs_file/static/src/views/fields/fsfile_field.xml:0
+#: code:addons/fs_file/static/src/views/fields/fsfile_field.xml
 #, python-format
 msgid "Clear"
 msgstr "Očisti"
 
 #. module: fs_file
 #. odoo-javascript
-#: code:addons/fs_file/static/src/views/fields/fsfile_field.esm.js:0
+#: code:addons/fs_file/static/src/views/fields/fsfile_field.esm.js
 #, python-format
 msgid "Could not display the selected image"
 msgstr "Odabranu sliku nije moguće prikazati."
 
 #. module: fs_file
 #. odoo-javascript
-#: code:addons/fs_file/static/src/views/fields/fsfile_field.xml:0
-#: code:addons/fs_file/static/src/views/fields/fsfile_field.xml:0
+#: code:addons/fs_file/static/src/views/fields/fsfile_field.xml
 #, python-format
 msgid "Edit"
 msgstr "Uredi"

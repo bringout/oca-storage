@@ -15,8 +15,7 @@ msgstr ""
 
 #. module: fs_image
 #. odoo-javascript
-#: code:addons/fs_image/static/src/views/fields/fsimage_field.esm.js:0
-#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
+#: code:addons/fs_image/static/src/views/fields/fsimage_field.esm.js
 #, python-format
 msgid "Alt Text"
 msgstr "Alt tekst"
@@ -29,7 +28,8 @@ msgstr "Alternativni tekst"
 #. module: fs_image
 #: model:ir.model.fields,help:fs_image.field_ir_attachment__alt_text
 msgid "Alternative text for the image. Only used for images on a website."
-msgstr "Alternativni tekst za sliku. Koristi se samo za slike na web stranici."
+msgstr ""
+"Alternativni tekst za sliku. Koristi se samo za slike na web stranici."
 
 #. module: fs_image
 #: model:ir.model,name:fs_image.model_ir_attachment
@@ -38,45 +38,44 @@ msgstr "Prilog"
 
 #. module: fs_image
 #. odoo-javascript
-#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
+#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml
 #, python-format
 msgid "Binary file"
 msgstr "Binarna datoteka"
 
 #. module: fs_image
 #. odoo-javascript
-#: code:addons/fs_image/static/src/views/dialogs/alttext_dialog.xml:0
+#: code:addons/fs_image/static/src/views/dialogs/alttext_dialog.xml
 #, python-format
 msgid "Cancel"
 msgstr "Otkaži"
 
 #. module: fs_image
 #. odoo-python
-#: code:addons/fs_image/fields.py:0
+#: code:addons/fs_image/fields.py
 #, python-format
 msgid "Cannot set alt_text on empty image (record %(record)s.%(field_name)s)"
-msgstr "Nije moguće postaviti alt_text na praznu sliku (zapis %(record)s.%(field_name)s)"
+msgstr ""
+"Nije moguće postaviti alt_text na praznu sliku (zapis "
+"%(record)s.%(field_name)s)"
 
 #. module: fs_image
 #. odoo-javascript
-#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
-#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
+#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml
 #, python-format
 msgid "Clear"
 msgstr "Očisti"
 
 #. module: fs_image
 #. odoo-javascript
-#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
-#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
+#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml
 #, python-format
 msgid "Download"
 msgstr "Preuzimanje"
 
 #. module: fs_image
 #. odoo-javascript
-#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
-#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
+#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml
 #, python-format
 msgid "Edit"
 msgstr "Uredi"
@@ -98,14 +97,14 @@ msgstr "Srednja slika"
 
 #. module: fs_image
 #. odoo-javascript
-#: code:addons/fs_image/static/src/views/dialogs/alttext_dialog.xml:0
+#: code:addons/fs_image/static/src/views/dialogs/alttext_dialog.xml
 #, python-format
 msgid "Save changes"
 msgstr "Snimanje promjena"
 
 #. module: fs_image
 #. odoo-javascript
-#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
+#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml
 #, python-format
 msgid "Set Alt Text"
 msgstr "Postavi Alt tekst"

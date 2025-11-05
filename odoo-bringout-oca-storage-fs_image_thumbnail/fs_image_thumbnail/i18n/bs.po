@@ -15,15 +15,11 @@ msgstr ""
 
 #. module: fs_image_thumbnail
 #: model:ir.model,name:fs_image_thumbnail.model_ir_attachment
-#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__attachment_id
-#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__attachment_id
-#: model_terms:ir.ui.view,arch_db:fs_image_thumbnail.fs_image_thumbnail_mixin_search_view
 msgid "Attachment"
 msgstr "Prilog"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,help:fs_image_thumbnail.field_fs_image_thumbnail_mixin__attachment_id
-#: model:ir.model.fields,help:fs_image_thumbnail.field_fs_thumbnail__attachment_id
 msgid "Attachment containing the original image"
 msgstr "Prilog koji sadrži originalnu sliku"
 
@@ -34,7 +30,6 @@ msgstr "Osnovno ime"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__create_uid
-#: model_terms:ir.ui.view,arch_db:fs_image_thumbnail.fs_thumbnail_search_view
 msgid "Created by"
 msgstr "Kreirao"
 
@@ -75,7 +70,6 @@ msgstr "ID"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__image
-#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__image
 msgid "Image"
 msgstr "Slika"
 
@@ -106,65 +100,58 @@ msgstr "MimeType"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__mimetype
-#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__mimetype
 msgid "Mimetype"
 msgstr "Mimetype"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__name
-#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__name
-#: model_terms:ir.ui.view,arch_db:fs_image_thumbnail.fs_image_thumbnail_mixin_search_view
 msgid "Name"
 msgstr "Naziv:"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__original_image
-#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__original_image
 msgid "Original Image"
 msgstr "Originalna slika"
 
 #. module: fs_image_thumbnail
 #. odoo-python
-#: code:addons/fs_image_thumbnail/models/fs_image_thumbnail_mixin.py:0
+#: code:addons/fs_image_thumbnail/models/fs_image_thumbnail_mixin.py
 #, python-format
 msgid "The base name must be set when multiple images are given"
 msgstr "Osnovno ime mora biti postavljen kad je dano više slika"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__base_name
-#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__base_name
 msgid "The base name of the thumbnail image (without extension)"
 msgstr "Osnovno ime minijature slike (bez ekstenzije)"
 
 #. module: fs_image_thumbnail
 #. odoo-python
-#: code:addons/fs_image_thumbnail/models/fs_image_thumbnail_mixin.py:0
+#: code:addons/fs_image_thumbnail/models/fs_image_thumbnail_mixin.py
 #, python-format
 msgid "The image %(name)s must be attached to an attachment"
 msgstr "Slika %(name)s mora biti priložena priloga"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,help:fs_image_thumbnail.field_fs_image_thumbnail_mixin__base_name
-#: model:ir.model.fields,help:fs_image_thumbnail.field_fs_thumbnail__base_name
 msgid ""
 "The thumbnail image will be named as base_name + _ + size_x + _ + size_y + . + extension.\n"
 "If not set, the base name will be the name of the original image.This base name is used to find all existing thumbnail of an image generated for the same base name."
 msgstr ""
+"Minijatura slike će se nazvati kao base_name + _ + size_x + _ + size_y + . + ekstenzija.\n"
+"Ako nije postavljen, osnovno ime bit će ime originalne slike. Ovo osnovno ime koristi se za pronalaženje svih postojećih minijatura slike generirane za isto osnovno ime."
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_ir_attachment__thumbnail_ids
-#: model_terms:ir.ui.view,arch_db:fs_image_thumbnail.ir_attachment_form_view
 msgid "Thumbnails"
 msgstr "Sličice"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__size_x
-#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__size_x
 msgid "X size"
 msgstr "X veličina"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__size_y
-#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__size_y
 msgid "Y size"
 msgstr "Y veličina"

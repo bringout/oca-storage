@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: storage_backend
 #. odoo-python
-#: code:addons/storage_backend/components/filesystem_adapter.py:0
+#: code:addons/storage_backend/components/filesystem_adapter.py
 #, python-format
 msgid "Access to %s is forbidden"
 msgstr "Pristup %s je zabranjen"
@@ -37,14 +37,14 @@ msgstr "Tip pozadine okruženja se može uređivati"
 
 #. module: storage_backend
 #. odoo-python
-#: code:addons/storage_backend/models/storage_backend.py:0
+#: code:addons/storage_backend/models/storage_backend.py
 #, python-format
 msgid "Connection Test Failed!"
 msgstr "Provjera povezivanja nije uspjela!"
 
 #. module: storage_backend
 #. odoo-python
-#: code:addons/storage_backend/models/storage_backend.py:0
+#: code:addons/storage_backend/models/storage_backend.py
 #, python-format
 msgid "Connection Test Succeeded!"
 msgstr "Provjera povezivanja uspješna!"
@@ -81,7 +81,7 @@ msgstr "Prikazani naziv"
 
 #. module: storage_backend
 #. odoo-python
-#: code:addons/storage_backend/models/storage_backend.py:0
+#: code:addons/storage_backend/models/storage_backend.py
 #, python-format
 msgid "Everything seems properly set up!"
 msgstr "Sve izgleda ispravno postavljeno!"
@@ -123,7 +123,6 @@ msgstr "Naziv:"
 
 #. module: storage_backend
 #: model:ir.model.fields,help:storage_backend.field_storage_backend__directory_path
-#: model:ir.model.fields,help:storage_backend.field_storage_backend__directory_path_env_default
 msgid "Relative path to the directory to store the file"
 msgstr "Relativna putanja do direktorija za skladištenje datoteke"
 
@@ -134,11 +133,6 @@ msgstr "Zadane vrijednosti server okruženja"
 
 #. module: storage_backend
 #: model:ir.actions.act_window,name:storage_backend.act_open_storage_backend_view
-#: model:ir.model,name:storage_backend.model_storage_backend
-#: model:ir.ui.menu,name:storage_backend.menu_storage
-#: model:ir.ui.menu,name:storage_backend.menu_storage_backend
-#: model_terms:ir.ui.view,arch_db:storage_backend.storage_backend_view_form
-#: model_terms:ir.ui.view,arch_db:storage_backend.storage_backend_view_search
 msgid "Storage Backend"
 msgstr "Pozadina skladištenja"
 

@@ -35,8 +35,6 @@ msgstr "Datoteka"
 
 #. module: fs_file_demo
 #: model:ir.actions.act_window,name:fs_file_demo.fs_file_act_window
-#: model:ir.model,name:fs_file_demo.model_fs_file
-#: model:ir.ui.menu,name:fs_file_demo.fs_file_menu
 msgid "Fs File"
 msgstr "Fs datoteka"
 

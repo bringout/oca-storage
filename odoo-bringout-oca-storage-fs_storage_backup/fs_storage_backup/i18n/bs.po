@@ -45,7 +45,6 @@ msgstr "Naziv datoteke sigurnosne kopije"
 
 #. module: fs_storage_backup
 #: model:ir.actions.server,name:fs_storage_backup.cron_backup_db_ir_actions_server
-#: model:ir.cron,cron_name:fs_storage_backup.cron_backup_db
 msgid "Backup database and delete old backups"
 msgstr "Kreiraj sigurnosnu kopiju baze podataka i obriši stare kopije"
 
@@ -61,7 +60,7 @@ msgstr "Sigurnosne kopije"
 
 #. module: fs_storage_backup
 #. odoo-python
-#: code:addons/fs_storage_backup/models/fs_storage.py:0
+#: code:addons/fs_storage_backup/models/fs_storage.py
 #, python-format
 msgid "Database backup failed"
 msgstr "Kreiranje sigurnosne kopije baze podataka neuspješno"
@@ -73,8 +72,7 @@ msgstr "FS skladište"
 
 #. module: fs_storage_backup
 #. odoo-python
-#: code:addons/fs_storage_backup/models/fs_storage.py:0
-#: model:mail.message.subtype,description:fs_storage_backup.message_subtype_cleanup_failed
+#: code:addons/fs_storage_backup/models/fs_storage.py
 #, python-format
 msgid "Failed to clean up old backups"
 msgstr "Neuspješno čišćenje starih sigurnosnih kopija"
@@ -121,7 +119,7 @@ msgstr "Čuvaj sigurnosne kopije (u danima)"
 
 #. module: fs_storage_backup
 #. odoo-python
-#: code:addons/fs_storage_backup/models/fs_storage.py:0
+#: code:addons/fs_storage_backup/models/fs_storage.py
 #, python-format
 msgid "Keep backups of (in days) must be greater or than 0."
 msgstr "Čuvaj sigurnosne kopije (u danima) mora biti veće od 0."

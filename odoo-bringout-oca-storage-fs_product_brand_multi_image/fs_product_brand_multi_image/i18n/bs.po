@@ -20,9 +20,8 @@ msgstr "Primjeni na"
 
 #. module: fs_product_brand_multi_image
 #: model:ir.model.fields,field_description:fs_product_brand_multi_image.field_fs_product_brand_image__brand_id
-#: model:ir.model.fields.selection,name:fs_product_brand_multi_image.selection__image_tag__apply_on__brand
 msgid "Brand"
-msgstr "Brand"
+msgstr "Brend"
 
 #. module: fs_product_brand_multi_image
 #: model:ir.model.fields,field_description:fs_product_brand_multi_image.field_fs_product_brand_image__create_uid
@@ -46,13 +45,11 @@ msgstr "ID"
 
 #. module: fs_product_brand_multi_image
 #: model:ir.model.fields,field_description:fs_product_brand_multi_image.field_fs_product_brand_image__image_medium
-#: model:ir.model.fields,field_description:fs_product_brand_multi_image.field_product_brand__image_medium
 msgid "Image (128)"
 msgstr "Slika (128)"
 
 #. module: fs_product_brand_multi_image
 #: model:ir.model.fields,field_description:fs_product_brand_multi_image.field_fs_product_brand_image__image
-#: model:ir.model.fields,field_description:fs_product_brand_multi_image.field_product_brand__image
 msgid "Image (original)"
 msgstr "Slika (originalna)"
 
@@ -63,7 +60,6 @@ msgstr "Oznaka slike"
 
 #. module: fs_product_brand_multi_image
 #: model:ir.model.fields,field_description:fs_product_brand_multi_image.field_product_brand__image_ids
-#: model_terms:ir.ui.view,arch_db:fs_product_brand_multi_image.product_brand_form_view
 msgid "Images"
 msgstr "Slike"
 

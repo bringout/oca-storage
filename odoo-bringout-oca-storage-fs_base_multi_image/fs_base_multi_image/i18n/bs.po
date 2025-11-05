@@ -15,21 +15,20 @@ msgstr ""
 
 #. module: fs_base_multi_image
 #. odoo-javascript
-#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.esm.js:0
+#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.esm.js
 #, python-format
 msgid "An error occurred during the images upload."
 msgstr "Dogodila se greška tijekom uploada slika."
 
 #. module: fs_base_multi_image
 #. odoo-javascript
-#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.xml:0
+#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.xml
 #, python-format
 msgid "Choose how you want to store the new images:"
 msgstr "Odaberite kako želite pohraniti nove slike:"
 
 #. module: fs_base_multi_image
 #: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image__create_uid
-#: model_terms:ir.ui.view,arch_db:fs_base_multi_image.fs_image_search_view
 msgid "Created by"
 msgstr "Kreirao"
 
@@ -65,8 +64,6 @@ msgstr "ID"
 
 #. module: fs_base_multi_image
 #: model:ir.model,name:fs_base_multi_image.model_fs_image
-#: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image__image
-#: model_terms:ir.ui.view,arch_db:fs_base_multi_image.fs_image_form_view
 msgid "Image"
 msgstr "Slika"
 
@@ -127,20 +124,17 @@ msgstr "MimeType"
 
 #. module: fs_base_multi_image
 #: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image__mimetype
-#: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image_relation_mixin__mimetype
 msgid "Mimetype"
 msgstr "Mimetype"
 
 #. module: fs_base_multi_image
 #: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image__name
-#: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image_relation_mixin__name
-#: model_terms:ir.ui.view,arch_db:fs_base_multi_image.fs_image_search_view
 msgid "Name"
 msgstr "Naziv:"
 
 #. module: fs_base_multi_image
 #. odoo-javascript
-#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.xml:0
+#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.xml
 #, python-format
 msgid "Reusable images"
 msgstr "Slike za ponovna uporaba"
@@ -152,7 +146,7 @@ msgstr "Sekvenca"
 
 #. module: fs_base_multi_image
 #. odoo-javascript
-#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.xml:0
+#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.xml
 #, python-format
 msgid "Specific"
 msgstr "Specifično"
@@ -169,28 +163,28 @@ msgstr "Specifična slika (128)"
 
 #. module: fs_base_multi_image
 #. odoo-javascript
-#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.xml:0
+#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.xml
 #, python-format
 msgid "You can drag and drop images to create new records or"
 msgstr "Možete prevući i spustiti slike za stvaranje novih zapisa ili"
 
 #. module: fs_base_multi_image
 #. odoo-python
-#: code:addons/fs_base_multi_image/models/fs_image_relation_mixin.py:0
+#: code:addons/fs_base_multi_image/models/fs_image_relation_mixin.py
 #, python-format
 msgid "You must set an image"
 msgstr "Morate postaviti sliku"
 
 #. module: fs_base_multi_image
 #. odoo-javascript
-#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.xml:0
+#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.xml
 #, python-format
 msgid "click here"
 msgstr "kliknite ovdje"
 
 #. module: fs_base_multi_image
 #. odoo-javascript
-#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.xml:0
+#: code:addons/fs_base_multi_image/static/src/fields/fs_image_relation_dnd_upload/fs_image_relation_dnd_upload.xml
 #, python-format
 msgid "to select image files."
 msgstr "za odabir datoteka slika."

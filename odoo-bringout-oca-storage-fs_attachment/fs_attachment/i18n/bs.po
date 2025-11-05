@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: fs_attachment
 #: model:ir.model,name:fs_attachment.model_ir_attachment
-#: model_terms:ir.ui.view,arch_db:fs_attachment.fs_storage_form_view
 msgid "Attachment"
 msgstr "Prilog"
 
@@ -66,11 +65,13 @@ msgstr "Polje"
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/fs_storage.py:0
+#: code:addons/fs_attachment/models/fs_storage.py
 #, python-format
 msgid ""
 "Field %(field)s already stored in another FS storage ('%(other_storage)s')"
 msgstr ""
+"Polje %(field)s već je pohranjeno u drugom FS skladištu "
+"('%(other_storage)s')"
 
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_fs_storage__field_xmlids
@@ -137,6 +138,12 @@ msgid ""
 "avoid to serve files from odoo and therefore to avoid to load the odoo "
 "process. "
 msgstr ""
+"Ako je označeno i odoo je iza proxy-ja koji podržava x-sendfile, sadržaj "
+"koji poslužuje interni URL priloga bit će poslan od strane proxy-ja "
+"koristeći fs_url ako je definiran. Ako nije, datoteku će poslužiti odoo koji"
+" će streamirati sadržaj čitan iz filesystem skladišta. Ova opcija je korisna"
+" za izbjegavanje posluživanja datoteka iz odoo i time izbjegavanje "
+"opterećivanja odoo procesa."
 
 #. module: fs_attachment
 #: model:ir.model.fields,help:fs_attachment.field_fs_storage__autovacuum_gc
@@ -147,6 +154,11 @@ msgid ""
 "systems (like a website). In such case, records in the fs.file.gc table must"
 " be manually processed."
 msgstr ""
+"Ako je označeno, autovacuum čišćenja smeća će se automatski izvršiti kad se "
+"skladište koristi za pohranu priloga. Ponekad je autovacuum za izbjegavanje "
+"kad su datoteke u skladištu referencirane drugim sustavima (kao web "
+"stranica). U takvom slučaju, zapisi u fs.file.gc tablici moraju se ručno "
+"obraditi."
 
 #. module: fs_attachment
 #: model:ir.model.fields,help:fs_attachment.field_fs_storage__optimizes_directory_path
@@ -158,6 +170,13 @@ msgid ""
 "properties will be stored in the same directory, avoiding overcrowding in "
 "the root directory and optimizing access times."
 msgstr ""
+"Ako je označeno, putanja direktorija bit će optimizirana za izbjegavanje "
+"previše datoteka u istom direktoriju. Ova opcija se koristi kad se skladište"
+" koristi za pohranu priloga. Ovisno o skladištu, ova opcija se može "
+"zanemariti. Korisno je za skladište bazirano na stvarnim datotekama. Tako će"
+" se datoteke s sličnim svojstvima pohraniti u istom direktoriju, "
+"izbjegavajući prenapučenost u root direktoriju i optimiziraju vremena "
+"pristupa."
 
 #. module: fs_attachment
 #: model:ir.model.fields,help:fs_attachment.field_fs_storage__use_filename_obfuscation
@@ -169,11 +188,18 @@ msgid ""
 " is used to store files that are referenced by other systems (like a "
 "website) where the filename is important for SEO."
 msgstr ""
+"Ako je označeno, naziv datoteke bit će zamućen. Ova opcija je korisna za "
+"izbjegavanje izlaganja osjetljivih informacija kroz URL ili u udaljenom "
+"skladištu. Zamućivanje se vrši koristeći hash naziva datoteke. Originalni "
+"naziv datoteke pohranjen je u meta podacima priloga. Zamućivanje je za "
+"izbjegavanje ako se skladište koristi za pohranu datoteka koje referenciraju"
+" drugi sustavi (kao web stranica) gdje je naziv datoteke važan za SEO."
 
 #. module: fs_attachment
 #: model:ir.model.fields,help:fs_attachment.field_fs_storage__use_as_default_for_attachments
 msgid "If checked, this storage will be used to store all the attachments "
-msgstr "Ako je označeno, ovo skladište će se koristiti za pohranu svih priloga "
+msgstr ""
+"Ako je označeno, ovo skladište će se koristiti za pohranu svih priloga "
 
 #. module: fs_attachment
 #: model:ir.model.fields,help:fs_attachment.field_ir_model_fields__storage_id
@@ -181,6 +207,8 @@ msgid ""
 "If specified, all attachments linked to this field will be stored in the "
 "provided storage."
 msgstr ""
+"Ako je navedeno, svi prilozi povezani s ovim poljem bit će pohranjeni u "
+"danom skladištu."
 
 #. module: fs_attachment
 #: model:ir.model.fields,help:fs_attachment.field_ir_model__storage_id
@@ -188,6 +216,8 @@ msgid ""
 "If specified, all attachments linked to this model will be stored in the "
 "provided storage."
 msgstr ""
+"Ako je navedeno, svi prilozi povezani s ovim modelom bit će pohranjeni u "
+"danom skladištu."
 
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_ir_attachment__internal_url
@@ -222,6 +252,10 @@ msgid ""
 "in one FS storage, and the related model is in another FS storage, we will "
 "store it into the storage linked to the resource field."
 msgstr ""
+"Lista polja tako da se prilozi povezani s jednim od ovih polja pohranjuju u "
+"ovom skladištu. NB: Ako je prilog povezan s poljem koje je u jednom FS "
+"skladištu, a povezani model je u drugom FS skladištu, pohranit ćemo ga u "
+"skladište povezano s poljem resursa."
 
 #. module: fs_attachment
 #: model:ir.model.fields,help:fs_attachment.field_fs_storage__field_xmlids
@@ -231,6 +265,10 @@ msgid ""
 "that is in one FS storage, and the related model is in another FS storage, "
 "we will store it into the storage linked to the resource field."
 msgstr ""
+"Lista XML ID-jeva polja tako da se prilozi povezani s jednim od ovih polja "
+"pohranjuju u ovom skladištu. NB: Ako je prilog povezan s poljem koje je u "
+"jednom FS skladištu, a povezani model je u drugom FS skladištu, pohranit "
+"ćemo ga u skladište povezano s poljem resursa."
 
 #. module: fs_attachment
 #: model:ir.model.fields,help:fs_attachment.field_fs_storage__model_ids
@@ -238,6 +276,8 @@ msgid ""
 "List of models such as attachments linked to one of these models will be "
 "stored in this storage."
 msgstr ""
+"Lista modela tako da se prilozi povezani s jednim od ovih modela pohranjuju "
+"u ovom skladištu."
 
 #. module: fs_attachment
 #: model:ir.model.fields,help:fs_attachment.field_fs_storage__model_xmlids
@@ -245,6 +285,8 @@ msgid ""
 "List of models xml ids such as attachments linked to one of these models "
 "will be stored in this storage."
 msgstr ""
+"Lista XML ID-jeva modela tako da se prilozi povezani s jednim od ovih modela"
+" pohranjuju u ovom skladištu."
 
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_fs_storage__model_ids
@@ -253,11 +295,12 @@ msgstr "Model"
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/fs_storage.py:0
+#: code:addons/fs_attachment/models/fs_storage.py
 #, python-format
 msgid ""
 "Model %(model)s already stored in another FS storage ('%(other_storage)s')"
 msgstr ""
+"Model %(model)s već je pohranjen u drugom FS skladištu ('%(other_storage)s')"
 
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_fs_storage__model_xmlids
@@ -275,17 +318,19 @@ msgid ""
 "Normally the directory_path is for internal usage. If this flag is enabled "
 "the path will be used to compute the public URL."
 msgstr ""
+"Obično je directory_path za internu upotrebu. Ako je ova oznaka omogućena, "
+"putanja će se koristiti za izračun javnog URL-a."
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/ir_attachment.py:0
+#: code:addons/fs_attachment/models/ir_attachment.py
 #, python-format
 msgid "Only administrators can execute this action."
 msgstr "Samo administratori mogu izvršiti ovu akciju."
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/fs_storage.py:0
+#: code:addons/fs_attachment/models/fs_storage.py
 #, python-format
 msgid "Only one storage can be used as default for attachments"
 msgstr "Samo jedno skladište može se koristiti kao zadano za priloge"
@@ -297,13 +342,12 @@ msgstr "Optimizira putanju direktorija"
 
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_ir_model__storage_id
-#: model:ir.model.fields,field_description:fs_attachment.field_ir_model_fields__storage_id
 msgid "Storage"
 msgstr "Skladište"
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/ir_attachment.py:0
+#: code:addons/fs_attachment/models/ir_attachment.py
 #, python-format
 msgid "Storage '%s' is disabled (see environment configuration)."
 msgstr "Skladište '%s' je onemogućeno (vidi konfiguraciju okruženja)."
@@ -315,7 +359,7 @@ msgstr "Kod skladišta"
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/ir_attachment.py:0
+#: code:addons/fs_attachment/models/ir_attachment.py
 #, python-format
 msgid "Storages are disabled (see environment configuration)."
 msgstr "Skladišta su onemogućena (vidi konfiguraciju okruženja)."
@@ -334,6 +378,8 @@ msgid ""
 "'ir_attachment.storage.force.database' when the module 'fs_attachment' is "
 "installed."
 msgstr ""
+"Tehnički kod koji se koristi za identifikaciju skladišnog backend-a u kodu.\n"
+"Ovaj kod mora biti jedinstven. Ovaj kod se koristi na primjer za definiranje skladišnog backend-a za pohranu priloga putem konfiguracijom parametra 'ir_attachment.storage.force.database' kad je instaliran modul 'fs_attachment'."
 
 #. module: fs_attachment
 #: model:ir.model.fields,help:fs_attachment.field_ir_attachment__fs_url
@@ -347,16 +393,18 @@ msgstr "URL za pristup datoteci s servera."
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/fs_storage.py:0
+#: code:addons/fs_attachment/models/fs_storage.py
 #, python-format
 msgid ""
 "The force_db_for_default_attachment_rules can only be set if the storage is "
 "used as default for attachments."
 msgstr ""
+"Force_db_for_default_attachment_rules se može postaviti samo ako se "
+"skladište koristi kao zadano za priloge."
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/fs_storage.py:0
+#: code:addons/fs_attachment/models/fs_storage.py
 #, python-format
 msgid "The force_db_for_default_attachment_rules is not a valid python dict."
 msgstr "Force_db_for_default_attachment_rules nije važeći python dict."
@@ -368,6 +416,8 @@ msgid ""
 "the meaning of the filenamethe filename is computed from the name and the "
 "extension"
 msgstr ""
+"Naziv datoteke u filesystem skladištu.\\nZa očuvanje mime tipa i značenja "
+"naziva datoteke\\nnaziv datoteke se izračunava iz naziva i ekstenzije"
 
 #. module: fs_attachment
 #: model:ir.model.fields,help:fs_attachment.field_ir_attachment__fs_url_path
@@ -408,12 +458,18 @@ msgid ""
 "* application/javascript are stored in database whatever their size \n"
 "* text/css are stored in database whatever their size"
 msgstr ""
+"Kad se pohranjuju prilozi u vanjskom skladištu, skladište može biti sporo. Ako se skladište koristi za pohranu odoo priloga po zadanom, to može dovesti do lošeg korisničkog iskustva jer se male slike (128, 256) koriste u Odoo u list / kanban pogledima. Želimo da budu brze za čitanje. Ovo polje omogućava forsiranje pohrane nekih priloga u odoo bazi podataka. Vrijednost je dict gdje je ključ početak mime tipa za konfiguraciju a vrijednost je granica u veličini ispod koje se prilozi čuvaju u DB. 0 znači nema granice.\n"
+"Zadana konfiguracija znači:\n"
+"* mime tipovi slika (image/png, image/jpeg, ...) ispod 50KB pohranjeni su u bazi podataka\n"
+"* application/javascript pohranjeni su u bazi podataka bez obzira na veličinu \n"
+"* text/css pohranjeni su u bazi podataka bez obzira na veličinu"
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/ir_attachment.py:0
+#: code:addons/fs_attachment/models/ir_attachment.py
 #, python-format
 msgid ""
 "You can't write on multiple attachments with different mimetypes at the same"
 " time."
 msgstr ""
+"Ne možete pisati na više priloga s različitim mime tipovima u isto vrijeme."

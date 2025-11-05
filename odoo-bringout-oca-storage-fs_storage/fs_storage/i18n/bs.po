@@ -25,7 +25,6 @@ msgstr "Dostupna svojstva"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__check_connection_method
-#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__check_connection_method
 msgid "Check Connection Method"
 msgstr "Metoda provjere konekcije"
 
@@ -41,34 +40,32 @@ msgstr "Šifra"
 
 #. module: fs_storage
 #. odoo-python
-#: code:addons/fs_storage/models/fs_storage.py:0
+#: code:addons/fs_storage/models/fs_storage.py
 #, python-format
 msgid "Connection Test Failed!"
 msgstr "Provjera povezivanja nije uspjela!"
 
 #. module: fs_storage
 #. odoo-python
-#: code:addons/fs_storage/models/fs_storage.py:0
+#: code:addons/fs_storage/models/fs_storage.py
 #, python-format
 msgid "Connection Test Succeeded!"
 msgstr "Provjera povezivanja uspješna!"
 
 #. module: fs_storage
 #. odoo-python
-#: code:addons/fs_storage/models/fs_storage.py:0
+#: code:addons/fs_storage/models/fs_storage.py
 #, python-format
 msgid "Create Marker file"
 msgstr "Kreiraj marker datoteku"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__create_uid
-#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__create_date
-#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -94,7 +91,6 @@ msgstr "Env putanja direktorija je uređiva"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__display_name
-#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -110,18 +106,13 @@ msgstr "Eval opcije iz Env Env je uređivo"
 
 #. module: fs_storage
 #. odoo-python
-#: code:addons/fs_storage/models/fs_storage.py:0
+#: code:addons/fs_storage/models/fs_storage.py
 #, python-format
 msgid "Everything seems properly set up!"
 msgstr "Sve izgleda ispravno podešeno!"
 
 #. module: fs_storage
 #: model:ir.actions.act_window,name:fs_storage.act_open_fs_storage_view
-#: model:ir.model,name:fs_storage.model_fs_storage
-#: model:ir.ui.menu,name:fs_storage.menu_fs_storage
-#: model:ir.ui.menu,name:fs_storage.menu_storage
-#: model_terms:ir.ui.view,arch_db:fs_storage.fs_storage_form_view
-#: model_terms:ir.ui.view,arch_db:fs_storage.fs_storage_search_view
 msgid "FS Storage"
 msgstr "FS skladište"
 
@@ -137,7 +128,6 @@ msgstr "FS čarobnjak testiranja konekcije"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__id
-#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__id
 msgid "ID"
 msgstr "ID"
 
@@ -148,25 +138,22 @@ msgstr "Json opcije"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage____last_update
-#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__write_uid
-#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__write_date
-#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: fs_storage
 #. odoo-python
-#: code:addons/fs_storage/models/fs_storage.py:0
+#: code:addons/fs_storage/models/fs_storage.py
 #, python-format
 msgid "List File"
 msgstr "Lista datoteka"
@@ -198,7 +185,6 @@ msgstr "Protokol"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__protocol_descr
-#: model_terms:ir.ui.view,arch_db:fs_storage.fs_storage_form_view
 msgid "Protocol Descr"
 msgstr "Opis protokola"
 
@@ -214,7 +200,6 @@ msgstr "Protokol okruženja može se mijenjati"
 
 #. module: fs_storage
 #: model:ir.model.fields,help:fs_storage.field_fs_storage__directory_path
-#: model:ir.model.fields,help:fs_storage.field_fs_storage__directory_path_env_default
 msgid "Relative path to the directory to store the file"
 msgstr "Relativni put do direktorija za čuvanje datoteka"
 
@@ -230,7 +215,6 @@ msgstr "Riješiti env vars Env zadano"
 
 #. module: fs_storage
 #: model:ir.model.fields,help:fs_storage.field_fs_storage__eval_options_from_env
-#: model:ir.model.fields,help:fs_storage.field_fs_storage__eval_options_from_env_env_default
 msgid ""
 "Resolve options values starting with $ from environment variables. e.g\n"
 "            {\n"
@@ -238,6 +222,10 @@ msgid ""
 "            }\n"
 "            "
 msgstr ""
+"Riješite vrijednosti opcija koje počinju sa $ iz varijabli okruženja. npr\n"
+"            {\n"
+"                \"endpoint_url\": \"$AWS_ENDPOINT_URL\",\n"
+"            }\n"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__server_env_defaults
@@ -251,6 +239,9 @@ msgid ""
 "* Create Marker file : Create a file on remote and check it exists\n"
 "* List File : List all files from root directory"
 msgstr ""
+"Postavite metodu ako želite da se veza s udaljenim skladištem provjerava svaki put kada se koristi, kako bi se uklonile zastarjele veze iz keša.\n"
+"* Kreiraj označnu datoteku : Kreira datoteku na udaljenom serveru i provjerava da li postoji\n"
+"* Lista datoteka : Prikazuje sve datoteke iz glavnog direktorija"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__storage_id
@@ -266,6 +257,8 @@ msgid ""
 "'ir_attachment.storage.force.database' when the module 'fs_attachment' is "
 "installed."
 msgstr ""
+"Tehnički kod koji se koristi za identifikaciju skladišnog backend-a u kodu.\n"
+"Ovaj kod mora biti jedinstven. Ovaj kod se koristi na primjer za definiranje skladišnog backend-a za pohranu priloga putem konfiguracijom parametra 'ir_attachment.storage.force.database' kad je instaliran modul 'fs_attachment'."
 
 #. module: fs_storage
 #: model_terms:ir.ui.view,arch_db:fs_storage.fs_test_connection_form_view
@@ -274,7 +267,6 @@ msgstr "Testiraj vezu"
 
 #. module: fs_storage
 #: model_terms:ir.ui.view,arch_db:fs_storage.fs_storage_form_view
-#: model_terms:ir.ui.view,arch_db:fs_storage.fs_test_connection_form_view
 msgid "Test connection"
 msgstr "Testiraj konekciju"
 
@@ -285,7 +277,7 @@ msgstr "Kod mora biti jedinstven"
 
 #. module: fs_storage
 #. odoo-python
-#: code:addons/fs_storage/models/fs_storage.py:0
+#: code:addons/fs_storage/models/fs_storage.py
 #, python-format
 msgid "The options must be a valid JSON"
 msgstr "Opcije moraju biti važeći JSON"
@@ -297,7 +289,6 @@ msgstr "Opcije korišćene za inicijalizaciju sistema datoteka.\\\n"
 
 #. module: fs_storage
 #: model:ir.model.fields,help:fs_storage.field_fs_storage__options
-#: model:ir.model.fields,help:fs_storage.field_fs_storage__options_env_default
 msgid ""
 "The options used to initialize the filesystem.\n"
 "This is a JSON field that depends on the protocol used.\n"
@@ -313,13 +304,58 @@ msgid ""
 "For more information, please refer to the fsspec documentation:\n"
 "https://filesystem-spec.readthedocs.io/en/latest/api.html#built-in-implementations"
 msgstr ""
+"Opcije korišćene za inicijalizaciju sistema datoteka.\n"
+"Ovo je JSON polje koje zavisi od korišćenog protokola.\n"
+"Na primjer, za sftp protokol, možete dati sljedeće:\n"
+"{\n"
+"    'host': 'my.sftp.server',\n"
+"    'ssh_kwrags': {\n"
+"        'username': 'myuser',\n"
+"        'password': 'mypassword',\n"
+"        'port': 22,\n"
+"    }\n"
+"}\n"
+"Za više informacija, molimo pogledajte fsspec dokumentaciju:\n"
+"https://filesystem-spec.readthedocs.io/en/latest/api.html#built-in-implementations"
 
 #. module: fs_storage
 #: model:ir.model.fields,help:fs_storage.field_fs_storage__options_protocol
-#: model:ir.model.fields,help:fs_storage.field_fs_storage__protocol
-#: model:ir.model.fields,help:fs_storage.field_fs_storage__protocol_env_default
 msgid ""
 "The protocol used to access the content of filesystem.\n"
 "This list is the one supported by the fsspec library (see https://filesystem-spec.readthedocs.io/en/latest). A filesystem protocolis added by default and refers to the odoo local filesystem.\n"
 "Pay attention that according to the protocol, some options must beprovided through the options field."
 msgstr ""
+"Protokol korišten za pristup sadržaju sistema datoteka.\n"
+"Ova lista je ona koju podržava fsspec biblioteka (pogledaj https://filesystem-spec.readthedocs.io/en/latest). Protokol sistema datoteka je dodan po zadanom i odnosi se na odoo lokalni sistem datoteka.\n"
+"Obratite pažnju da ovisno o protokolu, neke opcije moraju biti pružene kroz polje opcija."
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__backend_type_env_default
+msgid " Env Default"
+msgstr "Env zadano"
+
+#. module: fs_storage
+#: code:addons/fs_storage/components/filesystem_adapter.py
+#, python-format
+msgid "Access to %s is forbidden"
+msgstr "Pristup %s je zabranjen"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__backend_type
+msgid "Backend Type"
+msgstr "Tip backend-a"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__backend_type_env_is_editable
+msgid "Backend Type Env Is Editable"
+msgstr "Env tip backend-a je uređivo"
+
+#. module: fs_storage
+#: model:ir.model.fields.selection,name:fs_storage.selection__fs_storage__backend_type__filesystem
+msgid "Filesystem"
+msgstr "Sistem datoteka"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__has_validation
+msgid "Has Validation"
+msgstr "Ima validaciju"

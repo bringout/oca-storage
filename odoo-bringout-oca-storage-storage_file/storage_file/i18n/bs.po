@@ -45,7 +45,6 @@ msgstr "Kontrolni zbroj/SHA1"
 
 #. module: storage_file
 #: model:ir.actions.server,name:storage_file.ir_cron_clean_storage_file_ir_actions_server
-#: model:ir.cron,cron_name:storage_file.ir_cron_clean_storage_file
 msgid "Clean Storage File"
 msgstr "Očisti datoteku skladištenja"
 
@@ -81,6 +80,9 @@ msgid ""
 "the internal url with direct access to the storage. This could save you some"
 " money if you pay by CDN traffic."
 msgstr ""
+"Odlučite da li Odoo pozadinski prikazi trebaju koristiti vanjsku URL (obično"
+" CDN) ili internu URL s direktnim pristupom skladištenju. Ovo vam može "
+"uštedjeti novac ako plaćate po CDN prometu."
 
 #. module: storage_file
 #: model:ir.model.fields,help:storage_file.field_storage_backend__is_public
@@ -89,6 +91,9 @@ msgid ""
 "Private: your file/image can not be displayed is the user is not logged (not available on other website);\n"
 "Public: your file/image can be displayed if nobody is logged (useful to display files on external websites)"
 msgstr ""
+"Definiraj da li su sve datoteke pohranjene u ovoj pozadini javne ili ne. Primjeri:\n"
+"Privatne: vaša datoteka/slika se ne može prikazati ako korisnik nije prijavljen (nije dostupno na drugim web stranicama);\n"
+"Javne: vaša datoteka/slika se može prikazati ako nitko nije prijavljen (korisno za prikazivanje datoteka na vanjskim web stranicama)"
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__display_name
@@ -107,9 +112,6 @@ msgstr "Vanjski"
 
 #. module: storage_file
 #: model:ir.actions.act_window,name:storage_file.act_open_storage_file_view
-#: model:ir.ui.menu,name:storage_file.menu_storage_file
-#: model_terms:ir.ui.view,arch_db:storage_file.storage_file_view_form
-#: model_terms:ir.ui.view,arch_db:storage_file.storage_file_view_search
 msgid "File"
 msgstr "Datoteka"
 
@@ -125,7 +127,7 @@ msgstr "Tip datoteke"
 
 #. module: storage_file
 #. odoo-python
-#: code:addons/storage_file/models/storage_file.py:0
+#: code:addons/storage_file/models/storage_file.py
 #, python-format
 msgid "File can not be updated, remove it and create a new one"
 msgstr "Datoteka se ne može ažurirati, uklonite je i kreirajte novu"
@@ -166,6 +168,8 @@ msgid ""
 "If you have changed parameters via server env settings the URL might look "
 "outdated."
 msgstr ""
+"Ako ste promijenili parametre putem postavki server okruženja, URL možda "
+"izgleda zastario."
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__internal_url
@@ -213,6 +217,8 @@ msgid ""
 "Normally the directory_path it's for internal usage. If this flag is enabled"
 " the path will be used to compute the public URL."
 msgstr ""
+"Obično je directory_path za internu upotrebu. Ako je ovaj flag omogućen, "
+"putanja će se koristiti za izračunavanje javne URL."
 
 #. module: storage_file
 #: model:ir.model.fields.selection,name:storage_file.selection__storage_backend__served_by__odoo
@@ -256,6 +262,9 @@ msgid ""
 "                    <br/>Make sure this parameter is properly configured and accessible\n"
 "                    from everwhere you want to access the service."
 msgstr ""
+"Opcija 'Poslužuje Odoo' koristit će `web.base.url` kao osnovnu URL.\n"
+"                    <br/>Osigurajte se da je ovaj parametar ispravno konfiguriran i dostupan\n"
+"                    odsve gdje želite pristupiti servisu."
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__slug
@@ -289,15 +298,20 @@ msgid ""
 "Name and ID: will store the file with its name + its id.\n"
 "SHA Hash: will use the hash of the file as filename (same method as the native attachment storage)"
 msgstr ""
+"Strategija za izgradnju naziva datoteke za čuvanje.\n"
+"Naziv i ID: čuvat će datoteku s nazivom + ID-om.\n"
+"SHA Hash: koristit će hash datoteke kao naziv (ista metoda kao nativno čuvanje privitka)"
 
 #. module: storage_file
 #. odoo-python
-#: code:addons/storage_file/models/storage_file.py:0
+#: code:addons/storage_file/models/storage_file.py
 #, python-format
 msgid ""
 "The filename strategy is empty for the backend %s.\n"
 "Please configure it"
 msgstr ""
+"Strategija naziva datoteka je prazna za pozadinu %s.\n"
+"Molimo konfigurirajte je"
 
 #. module: storage_file
 #: model:ir.model.constraint,message:storage_file.constraint_storage_file_path_uniq
@@ -312,7 +326,7 @@ msgstr "Za brisanje"
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__url
 msgid "Url"
-msgstr "Url"
+msgstr "URL"
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_backend__url_include_directory_path
@@ -329,3 +343,9 @@ msgid ""
 "                    and you still want to see the images you might need to refresh this URL\n"
 "                    to make sure images and/or files are loaded correctly."
 msgstr ""
+"Kada se poslužuje vanjskim servisom možda imate posebnu konfiguraciju okruženja\n"
+"                    za izgradnju konačnih URL-ova datoteka.\n"
+"                    <br/>Iz razloga performansi, osnovna URL se izračunava i čuva.\n"
+"                    Ako mijenjate neke parametre (npr: u lokalnom dev okruženju ili posebnim instancama)\n"
+"                    i još uvijek želite vidjeti slike možda trebate osvježiti ovu URL\n"
+"                    da se osigurate da se slike i/ili datoteke učitavaju ispravno."

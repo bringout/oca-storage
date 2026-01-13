@@ -61,7 +61,7 @@ msgstr "Fs minijatura"
 #. module: fs_image_thumbnail
 #: model_terms:ir.ui.view,arch_db:fs_image_thumbnail.fs_image_thumbnail_mixin_search_view
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__id
@@ -81,17 +81,17 @@ msgstr "Minijatura slike"
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: fs_image_thumbnail
 #: model_terms:ir.ui.view,arch_db:fs_image_thumbnail.fs_image_thumbnail_mixin_search_view

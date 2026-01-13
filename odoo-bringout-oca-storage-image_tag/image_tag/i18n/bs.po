@@ -51,17 +51,17 @@ msgstr "Menadžer oznaka slika"
 #. module: image_tag
 #: model:ir.model.fields,field_description:image_tag.field_image_tag____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: image_tag
 #: model:ir.model.fields,field_description:image_tag.field_image_tag__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: image_tag
 #: model:ir.model.fields,field_description:image_tag.field_image_tag__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: image_tag
 #: model:ir.model.fields,field_description:image_tag.field_image_tag__name

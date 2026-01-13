@@ -104,17 +104,17 @@ msgstr "ID"
 #. module: storage_backend
 #: model:ir.model.fields,field_description:storage_backend.field_storage_backend____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: storage_backend
 #: model:ir.model.fields,field_description:storage_backend.field_storage_backend__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: storage_backend
 #: model:ir.model.fields,field_description:storage_backend.field_storage_backend__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: storage_backend
 #: model:ir.model.fields,field_description:storage_backend.field_storage_backend__name

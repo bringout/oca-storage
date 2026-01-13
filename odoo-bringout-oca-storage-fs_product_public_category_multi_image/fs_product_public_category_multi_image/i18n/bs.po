@@ -61,17 +61,17 @@ msgstr "Slike"
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__link_existing

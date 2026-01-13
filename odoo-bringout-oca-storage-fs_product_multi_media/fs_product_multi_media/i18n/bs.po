@@ -46,17 +46,17 @@ msgstr "ID"
 #. module: fs_product_multi_media
 #: model:ir.model.fields,field_description:fs_product_multi_media.field_fs_product_category_media____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: fs_product_multi_media
 #: model:ir.model.fields,field_description:fs_product_multi_media.field_fs_product_category_media__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: fs_product_multi_media
 #: model:ir.model.fields,field_description:fs_product_multi_media.field_fs_product_category_media__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: fs_product_multi_media
 #: model:ir.model.fields,field_description:fs_product_multi_media.field_fs_product_category_media__link_existing
@@ -96,7 +96,7 @@ msgstr "Naziv:"
 #. module: fs_product_multi_media
 #: model:ir.model,name:fs_product_multi_media.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: fs_product_multi_media
 #: model:ir.model,name:fs_product_multi_media.model_product_category

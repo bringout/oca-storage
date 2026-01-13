@@ -51,7 +51,7 @@ msgstr "Fs medij"
 #. module: fs_base_multi_media
 #: model_terms:ir.ui.view,arch_db:fs_base_multi_media.fs_media_search_view
 msgid "Group By"
-msgstr "Grupiši po"
+msgstr "Grupiši po..."
 
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media__id
@@ -61,17 +61,17 @@ msgstr "ID"
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media_relation_mixin__link_existing

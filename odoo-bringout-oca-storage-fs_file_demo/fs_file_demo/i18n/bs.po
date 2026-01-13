@@ -56,17 +56,17 @@ msgstr "Slika (1920)"
 #. module: fs_file_demo
 #: model:ir.model.fields,field_description:fs_file_demo.field_fs_file____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: fs_file_demo
 #: model:ir.model.fields,field_description:fs_file_demo.field_fs_file__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: fs_file_demo
 #: model:ir.model.fields,field_description:fs_file_demo.field_fs_file__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: fs_file_demo
 #: model:ir.model.fields,field_description:fs_file_demo.field_fs_file__name

@@ -31,7 +31,7 @@ msgstr "Kreirano"
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__id
@@ -61,7 +61,7 @@ msgstr "Slike"
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__write_uid
@@ -86,12 +86,12 @@ msgstr "Povezana slika"
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__mimetype
 msgid "Mimetype"
-msgstr "Mimetype"
+msgstr ""
 
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: fs_product_public_category_multi_image
 #: model:ir.model,name:fs_product_public_category_multi_image.model_fs_product_public_category_image
@@ -106,7 +106,7 @@ msgstr "Javna kategorija"
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: fs_product_public_category_multi_image
 #: model:ir.model.fields,field_description:fs_product_public_category_multi_image.field_fs_product_public_category_image__specific_image

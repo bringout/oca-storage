@@ -41,12 +41,12 @@ msgstr "Kreirano"
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: fs_image_thumbnail
 #: model:ir.model,name:fs_image_thumbnail.model_fs_image_thumbnail_mixin
 msgid "Fs Image Thumbnail Mixin"
-msgstr "Fs Image Thumbnail Mixin"
+msgstr ""
 
 #. module: fs_image_thumbnail
 #: model:ir.ui.menu,name:fs_image_thumbnail.fs_thumbnail_menu
@@ -81,7 +81,7 @@ msgstr "Minijatura slike"
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__write_uid
@@ -96,17 +96,17 @@ msgstr "Zadnje ažurirano"
 #. module: fs_image_thumbnail
 #: model_terms:ir.ui.view,arch_db:fs_image_thumbnail.fs_image_thumbnail_mixin_search_view
 msgid "MimeType"
-msgstr "MimeType"
+msgstr ""
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__mimetype
 msgid "Mimetype"
-msgstr "Mimetype"
+msgstr ""
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: fs_image_thumbnail
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__original_image
@@ -115,7 +115,7 @@ msgstr "Originalna slika"
 
 #. module: fs_image_thumbnail
 #. odoo-python
-#: code:addons/fs_image_thumbnail/models/fs_image_thumbnail_mixin.py
+#: code:addons/fs_image_thumbnail/models/fs_image_thumbnail_mixin.py:0
 #, python-format
 msgid "The base name must be set when multiple images are given"
 msgstr "Osnovno ime mora biti postavljen kad je dano više slika"
@@ -127,7 +127,7 @@ msgstr "Osnovno ime minijature slike (bez ekstenzije)"
 
 #. module: fs_image_thumbnail
 #. odoo-python
-#: code:addons/fs_image_thumbnail/models/fs_image_thumbnail_mixin.py
+#: code:addons/fs_image_thumbnail/models/fs_image_thumbnail_mixin.py:0
 #, python-format
 msgid "The image %(name)s must be attached to an attachment"
 msgstr "Slika %(name)s mora biti priložena priloga"

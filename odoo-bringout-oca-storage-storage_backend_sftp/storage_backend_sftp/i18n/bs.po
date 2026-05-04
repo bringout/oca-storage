@@ -50,7 +50,7 @@ msgstr "Privatni ključ"
 #. module: storage_backend_sftp
 #: model:ir.model.fields.selection,name:storage_backend_sftp.selection__storage_backend__backend_type__sftp
 msgid "SFTP"
-msgstr "SFTP"
+msgstr ""
 
 #. module: storage_backend_sftp
 #: model:ir.model.fields,field_description:storage_backend_sftp.field_storage_backend__sftp_auth_method

@@ -36,7 +36,7 @@ msgstr "Kreirano"
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media__file
@@ -61,7 +61,7 @@ msgstr "ID"
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media__write_uid
@@ -101,22 +101,22 @@ msgstr "Tip medija"
 #. module: fs_base_multi_media
 #: model_terms:ir.ui.view,arch_db:fs_base_multi_media.fs_media_search_view
 msgid "MimeType"
-msgstr "MimeType"
+msgstr ""
 
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media__mimetype
 msgid "Mimetype"
-msgstr "Mimetype"
+msgstr ""
 
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media_relation_mixin__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: fs_base_multi_media
 #: model:ir.model.fields,field_description:fs_base_multi_media.field_fs_media_relation_mixin__specific_file

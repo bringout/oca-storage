@@ -51,7 +51,7 @@ msgstr "Kreirano"
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_fs_file_gc__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: fs_attachment
 #: model:ir.model,name:fs_attachment.model_fs_storage
@@ -65,7 +65,7 @@ msgstr "Polje"
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/fs_storage.py
+#: code:addons/fs_attachment/models/fs_storage.py:0
 #, python-format
 msgid ""
 "Field %(field)s already stored in another FS storage ('%(other_storage)s')"
@@ -106,7 +106,7 @@ msgstr "Kod filesystem skladišta"
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_ir_attachment__fs_url
 msgid "Filesystem URL"
-msgstr "Filesystem URL"
+msgstr ""
 
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_ir_attachment__fs_url_path
@@ -116,7 +116,7 @@ msgstr "Putanja filesystem URL-a"
 #. module: fs_attachment
 #: model:ir.model,name:fs_attachment.model_fs_file_gc
 msgid "Filesystem storage file garbage collector"
-msgstr "Filesystem storage file garbage collector"
+msgstr ""
 
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_fs_storage__force_db_for_default_attachment_rules
@@ -232,7 +232,7 @@ msgstr "Je putanja direktorija u URL"
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_fs_file_gc____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_fs_file_gc__write_uid
@@ -291,11 +291,11 @@ msgstr ""
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_fs_storage__model_ids
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/fs_storage.py
+#: code:addons/fs_attachment/models/fs_storage.py:0
 #, python-format
 msgid ""
 "Model %(model)s already stored in another FS storage ('%(other_storage)s')"
@@ -323,14 +323,14 @@ msgstr ""
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/ir_attachment.py
+#: code:addons/fs_attachment/models/ir_attachment.py:0
 #, python-format
 msgid "Only administrators can execute this action."
 msgstr "Samo administratori mogu izvršiti ovu akciju."
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/fs_storage.py
+#: code:addons/fs_attachment/models/fs_storage.py:0
 #, python-format
 msgid "Only one storage can be used as default for attachments"
 msgstr "Samo jedno skladište može se koristiti kao zadano za priloge"
@@ -347,7 +347,7 @@ msgstr "Skladište"
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/ir_attachment.py
+#: code:addons/fs_attachment/models/ir_attachment.py:0
 #, python-format
 msgid "Storage '%s' is disabled (see environment configuration)."
 msgstr "Skladište '%s' je onemogućeno (vidi konfiguraciju okruženja)."
@@ -359,7 +359,7 @@ msgstr "Kod skladišta"
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/ir_attachment.py
+#: code:addons/fs_attachment/models/ir_attachment.py:0
 #, python-format
 msgid "Storages are disabled (see environment configuration)."
 msgstr "Skladišta su onemogućena (vidi konfiguraciju okruženja)."
@@ -393,7 +393,7 @@ msgstr "URL za pristup datoteci s servera."
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/fs_storage.py
+#: code:addons/fs_attachment/models/fs_storage.py:0
 #, python-format
 msgid ""
 "The force_db_for_default_attachment_rules can only be set if the storage is "
@@ -404,7 +404,7 @@ msgstr ""
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/fs_storage.py
+#: code:addons/fs_attachment/models/fs_storage.py:0
 #, python-format
 msgid "The force_db_for_default_attachment_rules is not a valid python dict."
 msgstr "Force_db_for_default_attachment_rules nije važeći python dict."
@@ -466,7 +466,7 @@ msgstr ""
 
 #. module: fs_attachment
 #. odoo-python
-#: code:addons/fs_attachment/models/ir_attachment.py
+#: code:addons/fs_attachment/models/ir_attachment.py:0
 #, python-format
 msgid ""
 "You can't write on multiple attachments with different mimetypes at the same"

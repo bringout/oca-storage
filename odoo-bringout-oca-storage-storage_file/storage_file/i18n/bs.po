@@ -16,7 +16,7 @@ msgstr ""
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_backend__backend_view_use_internal_url
@@ -51,7 +51,7 @@ msgstr "Očisti datoteku skladištenja"
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__create_uid
@@ -98,7 +98,7 @@ msgstr ""
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__extension
@@ -127,7 +127,7 @@ msgstr "Tip datoteke"
 
 #. module: storage_file
 #. odoo-python
-#: code:addons/storage_file/models/storage_file.py
+#: code:addons/storage_file/models/storage_file.py:0
 #, python-format
 msgid "File can not be updated, remove it and create a new one"
 msgstr "Datoteka se ne može ažurirati, uklonite je i kreirajte novu"
@@ -184,7 +184,7 @@ msgstr "Je javno"
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__write_uid
@@ -204,7 +204,7 @@ msgstr "Mime Tip"
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: storage_file
 #: model:ir.model.fields.selection,name:storage_file.selection__storage_backend__filename_strategy__name_with_id
@@ -223,7 +223,7 @@ msgstr ""
 #. module: storage_file
 #: model:ir.model.fields.selection,name:storage_file.selection__storage_backend__served_by__odoo
 msgid "Odoo"
-msgstr "Odoo"
+msgstr ""
 
 #. module: storage_file
 #: model_terms:ir.ui.view,arch_db:storage_file.storage_backend_view_form
@@ -248,7 +248,7 @@ msgstr "Akcija izvještaja"
 #. module: storage_file
 #: model:ir.model.fields.selection,name:storage_file.selection__storage_backend__filename_strategy__hash
 msgid "SHA hash"
-msgstr "SHA hash"
+msgstr ""
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_backend__served_by
@@ -269,7 +269,7 @@ msgstr ""
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__slug
 msgid "Slug"
-msgstr "Slug"
+msgstr ""
 
 #. module: storage_file
 #: model:ir.model.fields,help:storage_file.field_storage_file__slug
@@ -304,7 +304,7 @@ msgstr ""
 
 #. module: storage_file
 #. odoo-python
-#: code:addons/storage_file/models/storage_file.py
+#: code:addons/storage_file/models/storage_file.py:0
 #, python-format
 msgid ""
 "The filename strategy is empty for the backend %s.\n"

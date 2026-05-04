@@ -40,21 +40,21 @@ msgstr "Šifra"
 
 #. module: fs_storage
 #. odoo-python
-#: code:addons/fs_storage/models/fs_storage.py
+#: code:addons/fs_storage/models/fs_storage.py:0
 #, python-format
 msgid "Connection Test Failed!"
 msgstr "Provjera povezivanja nije uspjela!"
 
 #. module: fs_storage
 #. odoo-python
-#: code:addons/fs_storage/models/fs_storage.py
+#: code:addons/fs_storage/models/fs_storage.py:0
 #, python-format
 msgid "Connection Test Succeeded!"
 msgstr "Provjera povezivanja uspješna!"
 
 #. module: fs_storage
 #. odoo-python
-#: code:addons/fs_storage/models/fs_storage.py
+#: code:addons/fs_storage/models/fs_storage.py:0
 #, python-format
 msgid "Create Marker file"
 msgstr "Kreiraj marker datoteku"
@@ -92,7 +92,7 @@ msgstr "Env putanja direktorija je uređiva"
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: fs_storage
 #: model_terms:ir.ui.view,arch_db:fs_storage.fs_storage_form_view
@@ -106,7 +106,7 @@ msgstr "Eval opcije iz Env Env je uređivo"
 
 #. module: fs_storage
 #. odoo-python
-#: code:addons/fs_storage/models/fs_storage.py
+#: code:addons/fs_storage/models/fs_storage.py:0
 #, python-format
 msgid "Everything seems properly set up!"
 msgstr "Sve izgleda ispravno podešeno!"
@@ -139,7 +139,7 @@ msgstr "Json opcije"
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__write_uid
@@ -153,7 +153,7 @@ msgstr "Zadnje ažurirano"
 
 #. module: fs_storage
 #. odoo-python
-#: code:addons/fs_storage/models/fs_storage.py
+#: code:addons/fs_storage/models/fs_storage.py:0
 #, python-format
 msgid "List File"
 msgstr "Lista datoteka"
@@ -161,7 +161,7 @@ msgstr "Lista datoteka"
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: fs_storage
 #: model:ir.model.fields,field_description:fs_storage.field_fs_storage__options
@@ -277,7 +277,7 @@ msgstr "Kod mora biti jedinstven"
 
 #. module: fs_storage
 #. odoo-python
-#: code:addons/fs_storage/models/fs_storage.py
+#: code:addons/fs_storage/models/fs_storage.py:0
 #, python-format
 msgid "The options must be a valid JSON"
 msgstr "Opcije moraju biti važeći JSON"
@@ -335,7 +335,7 @@ msgid " Env Default"
 msgstr "Env zadano"
 
 #. module: fs_storage
-#: code:addons/fs_storage/components/filesystem_adapter.py
+#: code:addons/fs_storage/components/filesystem_adapter.py:0
 #, python-format
 msgid "Access to %s is forbidden"
 msgstr "Pristup %s je zabranjen"

@@ -40,7 +40,7 @@ msgstr "Kreirano"
 #. module: fs_base_multi_image
 #: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: fs_base_multi_image
 #: model:ir.actions.act_window,name:fs_base_multi_image.fs_image_act_window
@@ -95,17 +95,17 @@ msgstr "Srednja slika"
 #. module: fs_base_multi_image
 #: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: fs_base_multi_image
 #: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: fs_base_multi_image
 #: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: fs_base_multi_image
 #: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image_relation_mixin__link_existing

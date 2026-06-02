@@ -98,7 +98,7 @@ msgstr ""
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__extension
@@ -184,17 +184,17 @@ msgstr "Je javno"
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: storage_file
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__mimetype

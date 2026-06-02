@@ -48,7 +48,7 @@ msgstr "Binarna datoteka"
 #: code:addons/fs_image/static/src/views/dialogs/alttext_dialog.xml:0
 #, python-format
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: fs_image
 #. odoo-python

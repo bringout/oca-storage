@@ -51,7 +51,7 @@ msgstr "Kreirano"
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_fs_file_gc__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: fs_attachment
 #: model:ir.model,name:fs_attachment.model_fs_storage
@@ -232,17 +232,17 @@ msgstr "Je putanja direktorija u URL"
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_fs_file_gc____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_fs_file_gc__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: fs_attachment
 #: model:ir.model.fields,field_description:fs_attachment.field_fs_file_gc__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: fs_attachment
 #: model:ir.model.fields,help:fs_attachment.field_fs_storage__field_ids
